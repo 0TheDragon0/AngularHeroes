@@ -8,18 +8,18 @@
   }
   .heroes li {
     cursor: pointer;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    font-family: Apple Chancery;
     position: relative;
     left: 0;
-    background-color: #EEE;
+    background-color: #CDF9FF;
     margin: .5em;
     padding: .3em 0;
     height: 1.6em;
     border-radius: 40px;
   }
   .heroes li:hover {
-    color: rgb(255, 255, 255);
-    background-color: #7D86C0;
+    color: rgb(0, 0, 0);
+    background-color: #767BFF;
     left: .1em;
   }
   .heroes li.selected {
@@ -33,9 +33,10 @@
   .heroes .badge {
     display: inline-block;
     font-size: small;
-    color: white;
+    font-family: Apple Chancery;
+    color: rgb(255, 255, 255);
     padding: 0.8em 0.7em 0 0.7em;
-    background-color:#405061;
+    background-color:#00035a;
     line-height: 1em;
     position: relative;
     left: -1px;

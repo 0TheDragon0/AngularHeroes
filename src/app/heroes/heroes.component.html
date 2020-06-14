@@ -1,6 +1,6 @@
 <h2>My Heroes</h2>
 <ul class="heroes">
-  <li *ngFor="let one_hero of heroes" (click)="onSelect(hero)">
-    <span class="badge">{{one_hero.id}}</span> {{one_hero.name}}
+  <li *ngFor="let hero of heroes" (click)="onSelect(hero)">
+    <span class="badge">{{hero.id}}</span> {{hero.name}}
   </li>
 </ul>

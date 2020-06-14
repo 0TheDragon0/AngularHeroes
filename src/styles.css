@@ -1,23 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
 /* Application-wide Styles */
 h1 {
-    color: #8409FF;
-    font-family: cursive;
+    color: #0006A8;
+    font-family: Apple Chancery;
     font-size: 250%;
   }
   h2, h3 {
-    color: #FF09C6;
-    font-family: cursive;
+    color: #0006A8;
+    font-family: Apple Chancery;
     font-weight: lighter;
+    font-size: xx-large;
   }
   body {
     margin: 2em;
   }
   body, input[type="text"], button {
     color: #000000;
-    font-family: Cambria, Georgia;
+    font-family: Apple Chancery;
   }
   /* everywhere else */
   * {
-    font-family: cursive;
+    font-family: Apple Chancery;
   }
