@@ -23,12 +23,12 @@
     left: .1em;
   }
   .heroes li.selected {
-    background-color: #CFD8DC;
-    color: white;
+    background-color: #767BFF;
+    color: rgb(0, 0, 0);
   }
   .heroes li.selected:hover {
-    background-color: #BBD8DC;
-    color: white;
+    background-color: #767BFF;
+    color: rgb(0, 0, 0);
   }
   .heroes .badge {
     display: inline-block;
