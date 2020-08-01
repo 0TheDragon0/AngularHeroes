@@ -26,7 +26,6 @@ import { DashboardComponent } from './dashboard/dashboard.component'; // <-- NgM
     FormsModule, 
     AppRoutingModule,
     HttpClientModule,
-    InMemoryDataService,
     HttpClientModule,
 
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
@@ -36,7 +35,6 @@ import { DashboardComponent } from './dashboard/dashboard.component'; // <-- NgM
       InMemoryDataService, { dataEncapsulation: false }
     )
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
